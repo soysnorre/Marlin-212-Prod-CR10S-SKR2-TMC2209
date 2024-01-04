@@ -1713,8 +1713,8 @@
 #define X_MIN_POS 4
 #define Y_MIN_POS 2
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE // 15mm Extra space on the right end
-#define Y_MAX_POS Y_BED_SIZE // 4mm Extra space behind the bed
+#define X_MAX_POS 319 // 15mm Extra space on the right end
+#define Y_MAX_POS 306 // 4mm Extra space behind the bed
 #define Z_MAX_POS 400
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
