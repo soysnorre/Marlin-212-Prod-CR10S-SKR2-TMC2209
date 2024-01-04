@@ -8,9 +8,9 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/Marlin",
-                "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/.pio/libdeps/BIGTREE_SKR_2/U8glib-HAL/src",
-                "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/.pio/libdeps/BIGTREE_SKR_2/TMCStepper/src",
+                "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/Marlin-212-Prod-CR10S-SKR2-TMC2209/Marlin",
+                "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/Marlin-212-Prod-CR10S-SKR2-TMC2209/.pio/libdeps/BIGTREE_SKR_2/U8glib-HAL/src",
+                "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/Marlin-212-Prod-CR10S-SKR2-TMC2209/.pio/libdeps/BIGTREE_SKR_2/TMCStepper/src",
                 "D:/Users/rcabe/.platformio/packages/framework-arduinoststm32/libraries/Servo/src",
                 "D:/Users/rcabe/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
                 "D:/Users/rcabe/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src",
@@ -57,9 +57,9 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/Marlin",
-                    "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/.pio/libdeps/BIGTREE_SKR_2/U8glib-HAL/src",
-                    "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/.pio/libdeps/BIGTREE_SKR_2/TMCStepper/src",
+                    "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/Marlin-212-Prod-CR10S-SKR2-TMC2209/Marlin",
+                    "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/Marlin-212-Prod-CR10S-SKR2-TMC2209/.pio/libdeps/BIGTREE_SKR_2/U8glib-HAL/src",
+                    "D:/Users/rcabe/OneDrive/Documentos/Firmwares Marlin/CR-10S/Marlin-2.1.2.1/Marlin-212-Prod-CR10S-SKR2-TMC2209/.pio/libdeps/BIGTREE_SKR_2/TMCStepper/src",
                     "D:/Users/rcabe/.platformio/packages/framework-arduinoststm32/libraries/Servo/src",
                     "D:/Users/rcabe/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
                     "D:/Users/rcabe/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src",

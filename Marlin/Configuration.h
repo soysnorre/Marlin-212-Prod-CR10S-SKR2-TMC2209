@@ -165,7 +165,7 @@
 #define Z_DRIVER_TYPE  TMC2209
 //#define X2_DRIVER_TYPE A4988
 //#define Y2_DRIVER_TYPE A4988
-#define Z2_DRIVER_TYPE TMC2209
+//#define Z2_DRIVER_TYPE TMC2209
 //#define Z3_DRIVER_TYPE A4988
 //#define Z4_DRIVER_TYPE A4988
 //#define I_DRIVER_TYPE  A4988
@@ -1180,7 +1180,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.68, 79.68, 397.80, 333.76 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 333.76 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -1713,8 +1713,8 @@
 #define X_MIN_POS 4
 #define Y_MIN_POS 2
 #define Z_MIN_POS 0
-#define X_MAX_POS 319 // 15mm Extra space on the right end
-#define Y_MAX_POS 306 // 4mm Extra space behind the bed
+#define X_MAX_POS X_BED_SIZE // 15mm Extra space on the right end
+#define Y_MAX_POS Y_BED_SIZE // 4mm Extra space behind the bed
 #define Z_MAX_POS 400
 //#define I_MIN_POS 0
 //#define I_MAX_POS 50
@@ -2492,7 +2492,7 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-//#define SD_CHECK_AND_RETRY
+#define SD_CHECK_AND_RETRY
 
 /**
  * LCD Menu Items
@@ -2532,7 +2532,7 @@
 //
 //  Set this option if CLOCKWISE causes values to DECREASE
 //
-#define REVERSE_ENCODER_DIRECTION
+//#define REVERSE_ENCODER_DIRECTION
 
 //
 // This option reverses the encoder direction for navigating LCD menus.
